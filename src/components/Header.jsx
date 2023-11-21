@@ -1,6 +1,6 @@
 import React from "react";
 
-function Nav() {
+function Header() {
     return (
         <nav>
             <img src="logo192.png" alt="" />
@@ -16,6 +16,7 @@ function Nav() {
                 </li>
             </ul>
         </nav>
+        
     );
 }
-export default Nav;
+export default Header;
